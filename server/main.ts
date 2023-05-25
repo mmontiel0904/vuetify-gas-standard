@@ -1,0 +1,2 @@
+const doGet = (e: GoogleAppsScript.Events.DoGet) => HtmlService.createTemplateFromFile('app').evaluate();
+const include = (filename: string) => HtmlService.createHtmlOutputFromFile(filename).getContent();

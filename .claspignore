@@ -1,0 +1,13 @@
+# Ignore all files
+**/**
+
+# Except the follwing folders
+!client/**
+!server/**
+
+# Except the following files
+!appsscript.json
+!app.html
+
+# Ignore even valid files
+client/index.html
